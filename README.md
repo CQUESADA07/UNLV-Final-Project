@@ -1,1 +1,2 @@
 # UNLV-Final-Project
+This is the Final Milestone Project for the SD-09 Cohort. My project is a webpage about Tours of Costa Rica with prices, pictures and a lot more. You can register for my webpage or login if you already have an account. 
