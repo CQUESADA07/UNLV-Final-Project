@@ -37,6 +37,13 @@ color: aqua;
  padding-right: 30px;
 }
 
+.headers {
+  font-size: 20px;
+  color: rgb(0, 81, 255);
+  background-color: white;
+}
+
+
 *{
   padding: 0;
   margin: 0;
@@ -45,6 +52,7 @@ color: aqua;
 body{
   background-color: rgb(227, 232, 227);
 }
+
 .container {
   width: 85vmin;
   position: absolute;
@@ -90,7 +98,6 @@ img {
   100% {
     transform: translateX(-300%);
   }
-
 
 
 }
