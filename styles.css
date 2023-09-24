@@ -27,14 +27,16 @@ li {
 font-size: 40px ;
 float: right;
 padding-right:100px;
-color: aqua;
-
+color: rgb(13, 0, 255);
+border: none;
 }
 
 .Log {
   font-size: 40px;
  float: right;
  padding-right: 30px;
+ color: rgb(13, 0, 255);
+ border: none;
 }
 
 .headers {
