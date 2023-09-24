@@ -80,10 +80,27 @@ backdrop-filter:blur(20px);
 box-shadow: 0 0 30px rgba(0,0,0,.5);
 display:flex;
 justify-content: center;
-align-items: center;
+align-items: center;  
+}
+
+.box .form-box {
+width: 100%;
+padding: 40px;
+
+}
+
+.form-box h2 {
+ font-size: 2em;
+ color: #162938;
+ text-align: center; 
+}
+
+.input-box {
   
 }
-img {
+
+
+.img {
   width: 100%;
 }
 @keyframes slide {
