@@ -29,6 +29,12 @@ float: right;
 padding-right:100px;
 color: rgb(13, 0, 255);
 border: none;
+
+}
+
+
+.Register:hover {
+ color: rgb(246, 113, 72);
 }
 
 .Log {
@@ -37,6 +43,10 @@ border: none;
  padding-right: 30px;
  color: rgb(13, 0, 255);
  border: none;
+}
+
+.Log:hover {
+  color: rgb(246, 113, 72);
 }
 
 .headers {
