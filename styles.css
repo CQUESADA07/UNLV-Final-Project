@@ -85,8 +85,14 @@ overflow: hidden
 }
 
 .box .form-box.login {
-  display: none;
+  /*display: none; */
 }
+
+.box .form-box.register {
+position: absolute;
+transform: translateX(400px);
+}
+
 
 .box.active-popup {
   transform: scale(1);
