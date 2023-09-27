@@ -73,16 +73,26 @@ body{
 
 
 .Beach {
-  float:center;
+float: right;
+padding: 200px;
+font-size: 70px;
+color: rgb(38, 237, 237)
+
 ;
+}
+.ballena {
+  padding-bottom: 60px;
 }
   
   .Jungle {
-  
+ color: rgb(157, 233, 56);
+ font-size: 70px;
+ padding-bottom: 80px;
   }
   
   .City {
-    
+  font-size: 70px;
+  color: blue;
   }
 
 
