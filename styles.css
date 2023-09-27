@@ -35,6 +35,9 @@ li {
   color: rgb(246, 113, 72);
 }
 
+
+
+
 .headers {
   font-size: 20px;
   color: rgb(0, 81, 255);
@@ -51,37 +54,25 @@ body{
   background-color: rgb(227, 232, 227);
 }
 
-.container {
-  width: 90vmin;
-  height:600px;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  top:50%;
-  left:50%;
-  overflow:hidden;
-  border:20px solid #ffffff;
-  border-radius: 8px;
-  box-shadow: 10px 25px 30px rgba(30, 200, 109, 0.3);
+
+.img {
+  width: auto;
 }
 
-.wrapper {
-  width: 100%;
-  height: auto;
-  display: flex;
-  animation: slide 16s infinite;
+.Rio {
+ 
 }
-
 
 .Beach {
 float: right;
 padding: 200px;
 font-size: 70px;
-color: rgb(38, 237, 237)
+color: rgb(38, 237, 237);
 
-;
+
 }
 .ballena {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
   
   .Jungle {
@@ -95,18 +86,51 @@ color: rgb(38, 237, 237)
   color: blue;
   }
 
+  .container {
+    width: 85vmin;
+    height: 600px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:66%;
+    left:50%;
+    overflow:hidden;
+    border:20px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30, 200, 109, 0.3);
+  }
+  
 
-.img {
-  width: 100%;
+.wrapper {
+  width:auto;
+  display: flex;
+  height: auto;
+  animation: slide 12s infinite;
 }
+
 @keyframes slide {
- 
-
-
-}
-}
-}
-
-
-
+  0%{
+        transform: translateX(0);
+      }
+  25%{
+        transform: translateX(0);
+      }
+      30%{
+        transform: translateX(-100%);
+      }
+      50%{
+        transform: translateX(-100%);
+      }
+      55%{
+        transform: translateX(-200%);
+      }
+      75%{
+        transform: translateX(-200%);
+      }
+      80%{
+        transform: translateX(-300%);
+      }
+      100%{
+        transform: translateX(-300%);
+      }
+    }
 
